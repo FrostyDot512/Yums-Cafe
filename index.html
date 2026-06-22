@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yums Cafe is a warm place for family, friends, food, and shared memories.">
+  <title>Yums Cafe | Food, Family & Shared Moments</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="preloader" aria-hidden="true">
+    <span>Yums Cafe</span>
+  </div>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#home" aria-label="Yums Cafe home">
+      <span class="brand-mark">Y</span>
+      <span class="brand-text">Yums Cafe</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-nav" data-nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#menu">Menu</a>
+      <a href="#visit">Visit Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-media">
+        <video src="assets/videos/yums-experience.mp4" poster="assets/images/nice-view-and-food.jpg" autoplay muted loop playsinline></video>
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">Welcome to Yums Cafe</p>
+        <h1>Where food brings favorite people together.</h1>
+        <p class="hero-copy">Gather around warm plates, bright conversations, and moments made to be remembered with family, friends, and loved ones.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#menu">View Menu</a>
+          <a class="btn btn-secondary" href="#visit">Visit Us</a>
+          <a class="btn btn-ghost" href="mailto:hello@yumscafe.com">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal" style="--delay: 180ms">
+        <span>Open Daily</span>
+        <strong>8:00 AM - 10:00 PM</strong>
+        <small>Breakfast, lunch, dinner, dessert, and good company.</small>
+      </div>
+
+      <a class="scroll-cue" href="#about" aria-label="Scroll to about section">
+        <span></span>
+      </a>
+    </section>
+
+    <section class="about section section-light" id="about">
+      <div class="container split-layout">
+        <div class="about-images reveal">
+          <img class="image-main" src="assets/images/besties-time-out.jpg" alt="Friends enjoying time together at Yums Cafe">
+          <img class="image-float" src="assets/images/coffee.jpg" alt="Coffee served at Yums Cafe">
+        </div>
+
+        <div class="section-copy reveal" style="--delay: 120ms">
+          <p class="eyebrow">Our Story</p>
+          <h2>A warm table for every kind of gathering.</h2>
+          <p>Yums Cafe is built around the simple joy of sharing good food with good people. From quiet breakfasts to birthday lunches and weekend catch-ups, every detail is designed to feel welcoming, comfortable, and full of care.</p>
+          <p>Our kitchen celebrates familiar flavors, thoughtful presentation, and generous hospitality, creating a place where families, friends, couples, and communities can slow down and connect.</p>
+
+          <div class="values-grid">
+            <div>
+              <strong>Family</strong>
+              <span>Comfortable moments for every generation.</span>
+            </div>
+            <div>
+              <strong>Community</strong>
+              <span>A neighborhood place with a generous heart.</span>
+            </div>
+            <div>
+              <strong>Memories</strong>
+              <span>Food, laughter, stories, and celebrations.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section section-warm" id="gallery">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Gallery</p>
+          <h2>Food, atmosphere, and moments worth keeping.</h2>
+          <p>Explore a glimpse of the flavors, spaces, and shared experiences that make Yums Cafe feel like home.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <button class="gallery-item tall reveal" data-lightbox="image" data-src="assets/images/inside.jpg" aria-label="View restaurant interior">
+            <img src="assets/images/inside.jpg" alt="Warm interior at Yums Cafe">
+            <span>Atmosphere</span>
+          </button>
+          <button class="gallery-item reveal" data-lightbox="image" data-src="assets/images/lunch.jpg" aria-label="View lunch plate">
+            <img src="assets/images/lunch.jpg" alt="Lunch meal at Yums Cafe">
+            <span>Lunch</span>
+          </button>
+          <button class="gallery-item video-card reveal" data-lightbox="video" data-src="assets/videos/weekend-experience.mp4" aria-label="Play weekend experience video">
+            <video src="assets/videos/weekend-experience.mp4" muted loop playsinline></video>
+            <span>Weekend Moments</span>
+          </button>
+          <button class="gallery-item wide reveal" data-lightbox="image" data-src="assets/images/team-building-food.jpg" aria-label="View team meal">
+            <img src="assets/images/team-building-food.jpg" alt="Shared meal for a team gathering">
+            <span>Community Tables</span>
+          </button>
+          <button class="gallery-item reveal" data-lightbox="image" data-src="assets/images/dessert.jpg" aria-label="View dessert">
+            <img src="assets/images/dessert.jpg" alt="Dessert served at Yums Cafe">
+            <span>Desserts</span>
+          </button>
+          <button class="gallery-item tall reveal" data-lightbox="image" data-src="assets/images/more-inside.jpg" aria-label="View cafe seating">
+            <img src="assets/images/more-inside.jpg" alt="Cafe seating at Yums Cafe">
+            <span>Seating</span>
+          </button>
+          <button class="gallery-item reveal" data-lightbox="video" data-src="assets/videos/flavors-weekend.mp4" aria-label="Play food video">
+            <video src="assets/videos/flavors-weekend.mp4" muted loop playsinline></video>
+            <span>Flavors</span>
+          </button>
+          <button class="gallery-item reveal" data-lightbox="image" data-src="assets/images/mojito.jpg" aria-label="View drink">
+            <img src="assets/images/mojito.jpg" alt="Refreshing mojito drink">
+            <span>Drinks</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu section section-dark" id="menu">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Our Menu</p>
+          <h2>Comforting favorites, made for sharing.</h2>
+          <p>Placeholder menu items are included for now and can be updated easily when the final Yums Cafe menu is ready.</p>
+        </div>
+
+        <div class="menu-tabs reveal" role="tablist" aria-label="Menu categories">
+          <button class="active" type="button" data-filter="all">All</button>
+          <button type="button" data-filter="breakfast">Breakfast</button>
+          <button type="button" data-filter="mains">Mains</button>
+          <button type="button" data-filter="drinks">Drinks</button>
+          <button type="button" data-filter="desserts">Desserts</button>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-item reveal" data-category="breakfast">
+            <img src="assets/images/breakfast.jpg" alt="Breakfast plate">
+            <div>
+              <div class="menu-title">
+                <h3>Yums Breakfast Platter</h3>
+                <span>UGX 28,000</span>
+              </div>
+              <p>Eggs, toast, sausage, fresh sides, and a comforting start to the day.</p>
+            </div>
+          </article>
+
+          <article class="menu-item reveal" data-category="mains">
+            <img src="assets/images/lunch2.jpg" alt="Lunch meal">
+            <div>
+              <div class="menu-title">
+                <h3>Family Lunch Special</h3>
+                <span>UGX 35,000</span>
+              </div>
+              <p>A generous main plate prepared for relaxed lunches and shared conversations.</p>
+            </div>
+          </article>
+
+          <article class="menu-item reveal" data-category="mains">
+            <img src="assets/images/nice-foods.jpg" alt="Assorted food">
+            <div>
+              <div class="menu-title">
+                <h3>Chef's Comfort Plate</h3>
+                <span>UGX 32,000</span>
+              </div>
+              <p>Seasonal flavors, hearty portions, and a warm Yums Cafe finish.</p>
+            </div>
+          </article>
+
+          <article class="menu-item reveal" data-category="drinks">
+            <img src="assets/images/drink.jpg" alt="Cafe drink">
+            <div>
+              <div class="menu-title">
+                <h3>House Fresh Cooler</h3>
+                <span>UGX 15,000</span>
+              </div>
+              <p>A bright, refreshing drink for sunny afternoons and weekend meetups.</p>
+            </div>
+          </article>
+
+          <article class="menu-item reveal" data-category="drinks">
+            <img src="assets/images/more-drink.jpg" alt="Cold drink">
+            <div>
+              <div class="menu-title">
+                <h3>Signature Mocktail</h3>
+                <span>UGX 18,000</span>
+              </div>
+              <p>Layered fruit notes, beautiful garnish, and a celebratory feel.</p>
+            </div>
+          </article>
+
+          <article class="menu-item reveal" data-category="desserts">
+            <img src="assets/images/dessert.jpg" alt="Dessert">
+            <div>
+              <div class="menu-title">
+                <h3>Sweet Memory Dessert</h3>
+                <span>UGX 20,000</span>
+              </div>
+              <p>A shareable treat for birthdays, dates, and after-lunch smiles.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit section section-light" id="visit">
+      <div class="container visit-layout">
+        <div class="section-copy reveal">
+          <p class="eyebrow">Visit Us</p>
+          <h2>Come with someone you love. Leave with a memory.</h2>
+          <p>Use this section for the final address, contact details, map embed, and social profiles once the official information is confirmed.</p>
+
+          <div class="contact-list">
+            <a href="tel:+256000000000"><span>Phone</span> +256 000 000 000</a>
+            <a href="mailto:hello@yumscafe.com"><span>Email</span> hello@yumscafe.com</a>
+            <p><span>Address</span> Yums Cafe, Kampala, Uganda</p>
+            <p><span>Hours</span> Mon - Sun: 8:00 AM - 10:00 PM</p>
+          </div>
+
+          <div class="social-links" aria-label="Social media links">
+            <a href="#" aria-label="Instagram">IG</a>
+            <a href="#" aria-label="Facebook">FB</a>
+            <a href="#" aria-label="TikTok">TT</a>
+          </div>
+        </div>
+
+        <div class="map-card reveal" style="--delay: 120ms">
+          <div>
+            <span>Map Placeholder</span>
+            <strong>Embed Google Maps here</strong>
+            <small>Replace this with the official Yums Cafe map location.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-layout">
+      <a class="brand" href="#home" aria-label="Yums Cafe home">
+        <span class="brand-mark">Y</span>
+        <span class="brand-text">Yums Cafe</span>
+      </a>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+        <a href="#visit">Visit</a>
+      </nav>
+
+      <p>Copyright <span data-year></span> Yums Cafe. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="lightbox" data-lightbox-modal aria-hidden="true">
+    <button class="lightbox-close" type="button" data-lightbox-close aria-label="Close lightbox">Close</button>
+    <div class="lightbox-content" data-lightbox-content></div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
